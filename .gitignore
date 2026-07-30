@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# RAG / FAISS (vector store)
+faiss_index.bin
+texts.json
+rag/faiss_index.bin
+rag/texts.json
+*.pkl
+
+# Data files (so you don't upload personal spending data)
+*.csv
+*.xlsx
+*.json
+*.db
+*.sqlite
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.tmp
