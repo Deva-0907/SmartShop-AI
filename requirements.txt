@@ -1,9 +1,10 @@
+websockets==15.0
+numpy==1.26.4
+packaging==23.2
+protobuf==4.25.3
+tenacity==8.2.3
 streamlit==1.32.0
-langchain-groq==0.1.0
-langchain-openai==0.1.0
-sentence-transformers==2.2.2
-faiss-cpu==1.7.4
 pandas==2.1.4
-python-dotenv==1.0.0
-beautifulsoup4==4.12.2
-requests==2.31.0
+langgraph-sdk==0.4.2
+
+
